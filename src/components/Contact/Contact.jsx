@@ -1,6 +1,6 @@
 import s from "./Contact.module.css";
-import { TbPhone } from "react-icons/tb";
-import { FaUserLarge } from "react-icons/fa6";
+import { GiSmartphone } from "react-icons/gi";
+import { SlUser } from "react-icons/sl";
 import { useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/counter/contactsSlice";
 
@@ -10,11 +10,11 @@ const Contact = ({ id, name, number }) => {
     <li className={s.contact}>
       <div className={s.user}>
         <p>
-          <FaUserLarge className={s.icon} />
+          <SlUser className={s.icon} />
           {name}
         </p>
         <p>
-          <TbPhone className={s.icon} />
+          <GiSmartphone className={s.icon} />
           {number}
         </p>
       </div>
