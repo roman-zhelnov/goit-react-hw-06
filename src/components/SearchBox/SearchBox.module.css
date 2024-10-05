@@ -1,0 +1,14 @@
+.SearchBox {
+  width: 300px;
+  margin-bottom: 20px;
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    input {
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+}
